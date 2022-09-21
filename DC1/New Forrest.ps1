@@ -1,1 +1,1 @@
-﻿Install-ADDSForest -DomainName intranet.mijnschool.be -InstallDNS
+﻿Install-ADDSForest -DomainName intranet.mijnschool.be  -DomainNetbiosName INTRANET -InstallDNS
