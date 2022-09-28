@@ -1,0 +1,6 @@
+﻿New-ADOrganizationalUnit -Name "1ste leerjaar" -DisplayName "1ste leerjaar" -Description "1ste leerjaar" -Path "OU=Leerlingen,OU=Mijn school,DC=intranet,DC=mijnschool,DC=be" -ProtectedFromAccidentalDeletion $true
+New-ADOrganizationalUnit -Name "2de leerjaar" -DisplayName "2de leerjaar" -Description "2de leerjaar" -Path "OU=Leerlingen,OU=Mijn school,DC=intranet,DC=mijnschool,DC=be" -ProtectedFromAccidentalDeletion $true
+New-ADOrganizationalUnit -Name "3de leerjaar" -DisplayName "3de leerjaar" -Description "3de leerjaar" -Path "OU=Leerlingen,OU=Mijn school,DC=intranet,DC=mijnschool,DC=be" -ProtectedFromAccidentalDeletion $true
+New-ADOrganizationalUnit -Name "4de leerjaar" -DisplayName "4de leerjaar" -Description "4de leerjaar" -Path "OU=Leerlingen,OU=Mijn school,DC=intranet,DC=mijnschool,DC=be" -ProtectedFromAccidentalDeletion $true
+New-ADOrganizationalUnit -Name "5de leerjaar" -DisplayName "5de leerjaar" -Description "5de leerjaar" -Path "OU=Leerlingen,OU=Mijn school,DC=intranet,DC=mijnschool,DC=be" -ProtectedFromAccidentalDeletion $true
+New-ADOrganizationalUnit -Name "6de leerjaar" -DisplayName "6de leerjaar" -Description "6de leerjaar" -Path "OU=Leerlingen,OU=Mijn school,DC=intranet,DC=mijnschool,DC=be" -ProtectedFromAccidentalDeletion $true
