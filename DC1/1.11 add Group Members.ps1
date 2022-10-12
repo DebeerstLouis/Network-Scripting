@@ -3,7 +3,7 @@ $Secure_String_Pwd = ConvertTo-SecureString "P@ssw0rd" -AsPlainText -Force
 
 foreach($item in $groups)
 {
-    $name = $item.Name
+    $name = $item.Member
     Add-ADGroupMember -Members $item.Member -Identity $item.Identity
     Write-Host "$name was added"
 }
