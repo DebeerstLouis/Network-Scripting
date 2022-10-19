@@ -1,4 +1,4 @@
-﻿$PC_Name = "DC2"
+﻿$PC_Name = "MS"
 
 #Connecting to Remote PS on DC2
 $s = New-PSSession -ComputerName $PC_Name -Credential "INTRANET\Administrator" 
