@@ -1,6 +1,6 @@
-﻿$PC_Name = "MS"
+﻿$PC_Name = "DC2"
 
-#Connecting to Remote PS on MS
+#Connecting to Remote on DC2
 $s = New-PSSession -ComputerName $PC_Name -Credential "INTRANET\Administrator" 
 
 Invoke-Command -Session $s -ScriptBlock  {
